@@ -15,23 +15,23 @@ const businessList = [
     },
     {
         title: "Painting",
-        id: 2,
+        id: 3,
         Image: "/white-wash/interior-painting.jpeg",
     },
     {
         title: "Paving",
-        id: 2,
+        id: 4,
         Image: "/white-wash/paving1.jpeg",
 
     },
     {
         title: "Kitchen Remodeling",
-        id: 2,
+        id: 5,
         Image: "/white-wash/kitchen-remodeling.jpeg",
     },
     {
         title: "Roofing",
-        id: 2,
+        id: 6,
         Image: "/home-hero.png",
     },
 ];
@@ -42,7 +42,7 @@ function BusinessList() {
             <h2 className='font-bold text-[22px]'>All Services </h2>
             <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 mt-5 '>
                 {businessList.length > 0 ? businessList.map((business, index) => (
-                    <div className='shadow-md rounded-lg hover:shadow-lg cursor-pointer hover:shadow-primary hover:scale-105 transition-all ease-in-out'>
+                    <div  key={business.id} className='shadow-md rounded-lg hover:shadow-lg cursor-pointer hover:shadow-primary hover:scale-105 transition-all ease-in-out'>
                         <Image src={business.Image} alt={business.title} width={500} height={200} className='h-[150px] md:h-[200px] object-cover rounded-lg' />
                         <div className='flex flex-col items-baseline p-3 gap-1'>
                             <h2 className='p-1 bg-purple-200 text-primary rounded-full px-2 text-[12px]'>{business.title}</h2>
@@ -80,7 +80,7 @@ function BusinessList() {
                     </div>
                 )) :
                     [1, 2, 3, 4, 5, 6, 7, 8].map((item, index) => (
-                        <div className='w-full h-[300px] bg-slate-200 rounded-lg animate-pulse'></div>
+                        <div  key={index} className='w-full h-[300px] bg-slate-200 rounded-lg animate-pulse'></div>
                     ))
                 }
             </div>
