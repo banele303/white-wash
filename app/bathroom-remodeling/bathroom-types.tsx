@@ -92,7 +92,7 @@ export function BathroomTypes() {
         Bathtub Replacement
         </h3>
         <p className="text-md leading-7 text-neutral-600 dark:text-neutral-400 py-5">
-        Spend less time cleaning and more time relaxing with a fresh new bathtub upgrade. Long Bath's bathtub products are non-porous, antimicrobial and engineered to be mold, mildew, soap scum, rust and stain-resistant.  Our team of experts ensures a seamless installation, transforming your bathing space into a clean and low-maintenance haven that is beautiful, durable and easy to clean.
+        Spend less time cleaning and more time relaxing with a fresh new bathtub upgrade. Long Bath&apos;s bathtub products are non-porous, antimicrobial and engineered to be mold, mildew, soap scum, rust and stain-resistant.  Our team of experts ensures a seamless installation, transforming your bathing space into a clean and low-maintenance haven that is beautiful, durable and easy to clean.
         </p>
         <Button />
     </BackgroundGradient>
