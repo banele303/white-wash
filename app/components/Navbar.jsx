@@ -52,7 +52,7 @@ const Navbar = () => {
                                     <Link href="/cabinet-refacing">Home Remodeling</Link>
                                 </li>
                                 <li className="md:ml-3 py-3 px-2  border-5 border-sky-900 cursor-pointer text-[19px] font-Poppins text-white font-bold">
-                                    <Link href="/kitchen-countertop">Bathroom Renovation</Link>
+                                    <Link href="/bathroom-remodeling">Bathroom Renovation</Link>
                                 </li>
                             </ul>
                             <button
@@ -95,7 +95,7 @@ const Navbar = () => {
                         <Link href="/cabinet-refacing">Home Remodeling</Link>
                         </li>
                         <li className="md:ml-3 py-3 px-6 font-Poppins border-5 border-sky-900 cursor-pointer text-white font-bold">
-                        <Link href="/kitchen-countertop">Bathroom Renovation</Link>
+                        <Link href="/bathroom-remodeling">Bathroom Renovation</Link>
                         </li>
                        
 

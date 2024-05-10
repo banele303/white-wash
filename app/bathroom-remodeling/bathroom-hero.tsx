@@ -28,8 +28,8 @@ export default function BathroomHero() {
 
               <div className="grid grid-cols-1  md:grid-cols-2 gap-6 pt-[7rem] md:pl-[3rem] md:h-[580px]">
                 <div className="md:pl-[3rem]">
-                  <h1 className="text-2xl md:text-[35px] pt-[8rem] md:pt-1 leading-[3rem] text-slate-100 font-extrabold">
-                  SAVE UP TO 30% ON BATH & <br/> SHOWER RENOVATIONS
+                  <h1 className="text-[20px] md:text-[35px] pt-[22rem] md:pt-[8rem] md:pt-1 leading-[2rem] md:leading-[3rem] text-slate-100 font-extrabold">
+                  SAVE UP TO 30% ON BATH &  SHOWER RENOVATIONS
                   </h1>
                   <p className="text-[17px] md:text-[18px] pt-6   text-slate-200 font-bold">
                   24 - 72 Hr Bathroom Remodel
@@ -48,9 +48,11 @@ export default function BathroomHero() {
                       <div className="relative flex space-x-2 items-center z-10 rounded-full bg-blue-900 py-4 px-1 ring-1 ring-white/10">
                         <Link
                           href={`tel:${phoneNumber}`}
-                          className="text-center mx-auto text-[20px]"
+                          className="text-center flex-row justify-center align-center mx-auto text-[20px]"
                         >
-                          Call +27 63 199 5124
+
+   
+ +27 63 199 5124
                         </Link>
                         <svg
                           fill="none"
