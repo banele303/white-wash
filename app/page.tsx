@@ -9,11 +9,12 @@ import Footer from "./components/ul/footer";
 import Mission from "./components/ul/mission";
 import { PaintingProjects } from "./painting-services/ui/painting-projects";
 import MostAskedPaintingQ from "./painting-services/ui/most- askedpainting";
+import { NavTwo } from "./components/ul/navbar-two";
 
 export default function Home() {
   return (
    <div>
-<Navbar/>
+<NavTwo/>
 <HomeHero/>
 <AboutUS/>
 <BusinessList/>
