@@ -14,7 +14,7 @@ import { NavTwo } from "./components/ul/navbar-two";
 export default function Home() {
   return (
    <div>
-<NavTwo/>
+<Navbar/>
 <HomeHero/>
 <AboutUS/>
 <BusinessList/>

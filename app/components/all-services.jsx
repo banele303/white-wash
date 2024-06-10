@@ -4,6 +4,11 @@ import React from 'react';
 
 const businessList = [
     {
+        title: "Painting",
+        id: 3,
+        Image: "/white-wash/interior-painting.jpeg",
+    },
+    {
         title: "House Renovation",
         id: 1,
         Image: "/white-wash/house-remodeling.jpeg",
@@ -13,11 +18,7 @@ const businessList = [
         id: 2,
         Image: "/white-wash/bathroom1.jpeg",
     },
-    {
-        title: "Painting",
-        id: 3,
-        Image: "/white-wash/interior-painting.jpeg",
-    },
+   
     {
         title: "Paving",
         id: 4,

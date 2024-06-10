@@ -13,19 +13,19 @@ export const projects = [
   {
     title: "Noluthando Nkosi",
     description:
-      "A technology company that builds economic infrastructure for the internet.",
+      "It has been a pleasure working with Innocent,they are very professinal and patualy , I would recomend them for any painting project",
     link: "https://stripe.com",
   },
   {
     title: "Brian Masuku",
     description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
+      "They fixed my bathroom in 45 minutes and I was I pressed how they managed to do a that fast and profesinalism",
     link: "https://netflix.com",
   },
   {
     title: "Andy Grey",
     description:
-      "A multinational technology company that specializes in Internet-related services and products.",
+      "I would Highly recomend Innocent and the team , they were amzing in helping us what we need to add in our house and the interior paint is wanderful",
     link: "https://google.com",
   },
   {
@@ -37,13 +37,13 @@ export const projects = [
   {
     title: "Ferdi Lamlela",
     description:
-      "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
+      "If you are looking for fast and clean team I would recommend Innocent and White Wash they did an amazing job",
     link: "https://amazon.com",
   },
   {
     title: "Elliza Rean",
     description:
-      "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
+      "Its been a pleasure working with White Wash team , they are very professional and panctualy",
     link: "https://microsoft.com",
   },
 ];
