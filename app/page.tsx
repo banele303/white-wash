@@ -16,7 +16,10 @@ export default function Home() {
    <div>
 <Navbar/>
 <HomeHero/>
+<div className="mt-[8rem] md:mt-[.4]">
 <AboutUS/>
+</div>
+
 <BusinessList/>
 <div className="flex flex-col">
   

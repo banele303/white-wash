@@ -23,11 +23,11 @@ export default function PaintingHero() {
 
           <div className="">
 
-            <div className="px-[2rem]  mt-[13rem] md:mt-[6rem]">
+            <div className="px-[2rem]  mt-[15rem] md:mt-[6rem]">
 
               <div className="grid grid-cols-1  md:grid-cols-2 gap-6 pt-[7rem] md:pl-[3rem] md:h-[580px]">
                 <div className="md:pl-[3rem]">
-                  <h1 className="text-3xl md:text-4xl pt-[10rem] md:pt-[8rem] md:pt-[3rem] leading-9 text-slate-100 font-extrabold">
+                  <h1 className="text-2xl md:text-4xl pt-[10rem] md:pt-[8rem] md:pt-[3rem] leading-9 text-slate-100 font-extrabold">
                     Unmatched Decking  Services In Gauteng
                   </h1>
                   <p className="text-[16px] md:text-2xl py-6   text-slate-200 ">
