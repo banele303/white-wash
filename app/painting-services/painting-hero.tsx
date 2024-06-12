@@ -23,7 +23,7 @@ export default function PaintingHero() {
 
           <div className="">
 
-            <div className="px-[2rem]  mt-[6rem]">
+            <div className="px-[2rem]  mt-[10rem] md:mt-[6rem]">
 
               <div className="grid grid-cols-1  md:grid-cols-2 gap-6 pt-[7rem] md:pl-[3rem] md:h-[580px]">
                 <div className="md:pl-[3rem]">

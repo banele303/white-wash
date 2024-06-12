@@ -36,7 +36,7 @@ const Navbar = () => {
                     }
                 >
                     <div className="px-2 flex justify-between items-center w-full h-full">
-                        <div className="flex items-center h-[3rem] w-[4rem] md:h-[5rem] md:w-[10rem] ml-[2rem] md:ml-1 md:pl-[4rem]">
+                        <div className="flex items-center h-[2rem] w-[2rem] md:h-[5rem] md:w-[10rem] ml-[2rem] md:ml-1 md:pl-[4rem]">
                          <Image src={logo} width={100} height={100} className='h-full md:h-full rounded-sm'/> 
                         </div>
                         <div className="hidden md:flex pr-4">
@@ -49,8 +49,9 @@ const Navbar = () => {
                                     <Link href="/painting-services">Painting</Link>
                                 </li>
                                 <li className="md:ml-3 py-3 px-2 border-5 border-sky-900  text-[19px] font-Poppins cursor-pointer text-white font-bold">
-                                    <Link href="/cabinet-refacing">Home Remodeling</Link>
+                                    <Link href="/decking-services">Decking</Link>
                                 </li>
+                              
                                 <li className="md:ml-3 py-3 px-2  border-5 border-sky-900 cursor-pointer text-[19px] font-Poppins text-white font-bold">
                                     <Link href="/bathroom-remodeling">Bathroom Renovation</Link>
                                 </li>
@@ -64,13 +65,13 @@ const Navbar = () => {
                         </div>
                         <div className="md:hidden mr-4" onClick={handleClick}>
                             {!nav ? (
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" class="w-6 h-6">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" class="w-6 h-6 text-white">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                                 </svg>
 
 
                             ) : (
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-white">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
                                 </svg>
 
@@ -91,9 +92,10 @@ const Navbar = () => {
                         <li className=" md:ml-3 py-3 px-6 font-Poppins border-5 border-sky-900 cursor-pointer text-white font-bold">
                             <Link href="/painting-services">Painting</Link>
                         </li>
-                        <li className="md:ml-3 py-3 px-6 border-5 border-sky-900  text-[19px] font-Poppins cursor-pointer text-white font-bold">
-                        <Link href="/cabinet-refacing">Home Remodeling</Link>
+                        <li className=" md:ml-3 py-3 px-6 font-Poppins border-5 border-sky-900 cursor-pointer text-white font-bold">
+                            <Link href="/decking-services">Decking</Link>
                         </li>
+                      
                         <li className="md:ml-3 py-3 px-6 font-Poppins border-5 border-sky-900 cursor-pointer text-white font-bold">
                         <Link href="/bathroom-remodeling">Bathroom Renovation</Link>
                         </li>
