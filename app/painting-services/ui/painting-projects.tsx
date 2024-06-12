@@ -14,20 +14,25 @@ export function PaintingProjects() {
 
 const images = [
     "/white-wash/exterio-painting.jpeg",
-    "/white-wash/interior-painting.jpeg",
-    "/white-wash/interior-painting2.jpeg",
+    "/decking/de6.jpeg",
+    "/painting/p2.jpeg",
 
     "/white-wash/outside-painting.jpeg",
-    "/white-wash/plastering.jpeg",
     "/white-wash/roofing2.jpeg",
+    "/decking/de7.jpeg",
+    "/painting/p1.jpeg",
     "/white-wash/tails2.jpeg",
+    "/decking/d-hero2.jpeg",
+    "/painting/p2.jpeg",
+    "/painting/p3.jpeg",
+    "/painting/p4.jpeg",
+    "/painting/p5.jpeg",
     "/white-wash/wall-painting.jpeg",
-    "/white-wash/waterproofing.jpeg",
+
     "/white-wash/project.jpeg",
-    "/white-wash/project2.jpeg",
-    "/white-wash/project3.jpeg",
+    
     "/white-wash/project4.jpeg",
     "/white-wash/roofpainting.jpeg",
-    "/white-wash/paintingproject.jpeg",
+  
 
 ];

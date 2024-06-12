@@ -6,34 +6,40 @@ const businessList = [
     {
         title: "Painting",
         id: 3,
-        Image: "/white-wash/interior-painting.jpeg",
+        Image: "/painting/p7.jpeg",
+        link : "/painting-services"
     },
     {
-        title: "House Renovation",
+        title: "Decking services",
         id: 1,
-        Image: "/white-wash/house-remodeling.jpeg",
+        Image: "/decking/pd1.jpeg",
+         link : "/decking-services"
     },
     {
         title: "Bathroom Remodeling",
         id: 2,
         Image: "/white-wash/bathroom1.jpeg",
+         link : "/bathroom-remodeling"
     },
    
     {
         title: "Paving",
         id: 4,
         Image: "/white-wash/paving1.jpeg",
+         link : "/"
 
     },
     {
         title: "Kitchen Remodeling",
         id: 5,
         Image: "/white-wash/kitchen-remodeling.jpeg",
+         link : "/"
     },
     {
         title: "Roofing",
         id: 6,
         Image: "/home-hero.png",
+         link : "/"
     },
 ];
 
@@ -44,7 +50,7 @@ function BusinessList() {
             <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 mt-5 '>
                 {businessList.length > 0 ? businessList.map((business, index) => (
                     <div  key={business.id} className='shadow-md rounded-lg hover:shadow-lg cursor-pointer hover:shadow-primary hover:scale-105 transition-all ease-in-out'>
-                        <Image src={business.Image} alt={business.title} width={500} height={200} className='h-[150px] md:h-[200px] object-cover rounded-lg' />
+                        <Image src={business.Image} alt={business.title} width={500} height={200} className='h-[260px] md:h-[350px] object-cover rounded-lg' />
                         <div className='flex flex-col items-baseline p-3 gap-1'>
                             <h2 className='p-1 bg-purple-200 text-primary rounded-full px-2 text-[12px]'>{business.title}</h2>
                             <h2 className='font-bold text-lg'>{business.title}</h2>
@@ -54,7 +60,7 @@ function BusinessList() {
                                 </span>
                                 <div className="relative flex space-x-2 items-center z-10 rounded-full bg-blue-900 py-1 px-1 ring-1 ring-white/10">
                                     <Link
-                                        href="/house-remodeling"
+                                        href={business.link}
                                         className="text-center mx-auto"
                                     >
                                         Learn More

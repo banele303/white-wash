@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import KitchenImage from "../../public/white-wash/hero2.jpg";
+import KitchenImage from "../../public/decking/d -hero1.jpeg";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
@@ -19,8 +19,8 @@ export default function HomeHero() {
 
     <div className="relative h-screen">
 
-      <div className="relative h-[60vh] md:h-[90vh] w-full">
-        <Image quality={100} src={KitchenImage} className="brightness-50 md:h-[90vh] h-full w-full" />
+      <div className="relative h-[80vh] md:h-full w-full">
+        <Image quality={100} src={KitchenImage} className="brightness-50  h-full w-full" />
 
 
         <div

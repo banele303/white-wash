@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Footer() {
     return (
-        <div className="dark:bg-white bg-black  dark:bg-dot-black/[0.2] bg-dot-white/[0.2] ">
+        <div className="bg-black ">
             <footer className="footer p-10 grid grid-cols-1 md:grid-cols-4 gap-5">
                 <aside className="flex flex-row gap-[-1rem]">
                     <div className="md:mt-[-2rem] pr-[-2rem]"> White Wash</div>
