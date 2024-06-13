@@ -6,6 +6,7 @@ import DeckingServices from "./all-decking-services";
 import MostAskedPaintingQ from "./ui/most- askedpainting";
 import { DeckingProjects } from "./ui/dacking-projects";
 import AboutDecking from "./about-decking";
+import WhatsApp from "../components/ul/whatsapp";
 
 
 export default function Home() {
@@ -15,7 +16,7 @@ export default function Home() {
       <PaintingHero />
       <AboutDecking />
       <DeckingServices />
-
+      <WhatsApp/>
       <DeckingProjects />
       <Footer />
     </div>

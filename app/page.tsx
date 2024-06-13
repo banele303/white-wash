@@ -10,6 +10,7 @@ import Mission from "./components/ul/mission";
 import { PaintingProjects } from "./painting-services/ui/painting-projects";
 import MostAskedPaintingQ from "./painting-services/ui/most- askedpainting";
 import { NavTwo } from "./components/ul/navbar-two";
+import WhatsApp from "./components/ul/whatsapp";
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
 <div className="mt-[8rem] md:mt-[.4]">
 <AboutUS/>
 </div>
-
+<WhatsApp/>
 <BusinessList/>
 <div className="flex flex-col">
   

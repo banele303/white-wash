@@ -5,6 +5,7 @@ import PaintingHero from "./painting-hero";
 import PaintingServices from "./all-painting-services";
 import MostAskedPaintingQ from "./ui/most- askedpainting";
 import { PaintingProjects } from "./ui/painting-projects";
+import WhatsApp from "../components/ul/whatsapp";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
 <PaintingServices/>
 <MostAskedPaintingQ/>
 <PaintingProjects/>
+<WhatsApp/>
 <Footer/>
    </div>
   );
